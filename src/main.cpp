@@ -15,7 +15,6 @@ main(int argc, char *  argv[])
 	for (const auto& dist : vec)
 	{
 		std::cout << dist << std::endl;
-		libUncertainDoublePrint(dist);
 	}
 
 	std::adjacent_difference(vec.begin(), vec.end(), vec.begin());
@@ -24,7 +23,6 @@ main(int argc, char *  argv[])
 	for (const auto& diff : vec)
 	{
 		std::cout << diff << std::endl;
-		libUncertainDoublePrint(diff);
 	}
 
 #ifdef DEBUG
