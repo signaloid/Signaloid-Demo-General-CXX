@@ -48,9 +48,9 @@ During the build process, the Signaloid Cloud Developer Platform links the compi
 - `libc`: the C standard library;
 - `libm`: the C math library (with function prototypes and other definitions in `math.h`);
 - `libstdc++`: the C++ standard library;
-- `libUncertain`: a library that exposes functionalities of uncertainty-tracking computer architectures (with function prototypes and other definitions in `uncertain.h`).
+- `UxHw`: a library that exposes functionalities of uncertainty-tracking computer architectures (with function prototypes and other definitions in `uxhw.h`).
 
-`libUncertain` allows applications to access and inject uncertainty information into the underlying microarchitectures. You can find out more about `libUncertain` in the [libUncertain documentation](https://libuncertain.signaloid.io/).
+`UxHw` allows applications to access and inject uncertainty information into the underlying microarchitectures. You can find out more about `UxHw` in the [UxHw documentation](https://docs.signaloid.dev/).
 
 ## 🍰 Accessing Your GitHub Repository from the Signaloid Cloud Developer Platform
 There are two ways to access a GitHub repository from the Signaloid Cloud Developer Platform.

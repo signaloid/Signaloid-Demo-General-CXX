@@ -1,14 +1,14 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
-#include <uncertain.h>
+#include <uxhw.h>
 
 int
 main(int argc, char *  argv[])
 {
 	std::vector<double> vec {
-		libUncertainDoubleUniformDist(0.0, 1.0),
-		libUncertainDoubleUniformDist(1.0, 2.0),
+		UxHwDoubleUniformDist(0.0, 1.0),
+		UxHwDoubleUniformDist(1.0, 2.0),
 	};
 
 	std::cout << "Initial distributions:" << std::endl;
